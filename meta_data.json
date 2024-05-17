@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "social network",
+        "2": "data (things)"
+    },
+    "description": "This plugin will let you sign in using Discord's OAuth. Unlike other bubble plugins, this only accesses 2 scopes: \"identify\" and \"guilds\".\n\nOnce signed in through discord, you can access a user's information as well as get a list of the Discord guilds they are in.",
+    "image": "//meta-q.cdn.bubble.io/f1715921053194x956691406340184800/discord_icon_191752.png",
+    "license": "open_source",
+    "link": "https://discordapp.com",
+    "name": "Discord Connection",
+    "plugin_instructions": "Fill in Client ID and Client Secret\nUse \"Get data from an external API\" to retrieve information"
+}

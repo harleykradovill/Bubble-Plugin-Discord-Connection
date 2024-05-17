@@ -1,0 +1,34 @@
+{
+    "add_to_header": true,
+    "auth": "oauth2_user",
+    "authentication_url": "https://discordapp.com/api/oauth2/authorize",
+    "calls": {
+        "AAC": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get User",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1691475399586x975112103101726700.plugin_api.AAC",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"Get User\",\"fields\":{\"_p_id\":{\"ret_btype\":\"text\",\"caption\":\"id\",\"sample_value\":\"292141521283842048\",\"path\":[\"id\"]},\"_p_username\":{\"ret_btype\":\"text\",\"caption\":\"username\",\"sample_value\":\"owui.\",\"path\":[\"username\"]},\"_p_global_name\":{\"ret_btype\":\"text\",\"caption\":\"global_name\",\"sample_value\":\"Harley\",\"path\":[\"global_name\"]}}}}",
+            "url": "https://discordapp.com/api/users/@me"
+        },
+        "AAD": {
+            "initialized": true,
+            "is_list": true,
+            "method": "get",
+            "name": "Get Guilds",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1691475399586x975112103101726700.plugin_api.AAD",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAD\":{\"caption\":\"Get Guild\",\"fields\":{\"_p_id\":{\"ret_btype\":\"text\",\"caption\":\"id\",\"sample_value\":\"343310845163601922\",\"path\":[\"id\"]},\"_p_name\":{\"ret_btype\":\"text\",\"caption\":\"name\",\"sample_value\":\"Baileys Rehab Centre\",\"path\":[\"name\"]}}}}",
+            "url": "https://discordapp.com/api/users/@me/guilds"
+        }
+    },
+    "generate_token_from_code_uri": "https://discordapp.com/api/oauth2/token",
+    "human": "Discord OAuth",
+    "oauth_user_data_call": "https://discordapp.com/api/users/@me",
+    "scope": "identify guilds"
+}
